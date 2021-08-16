@@ -1,0 +1,9 @@
+@startuml
+    actor User
+    queue Api
+    database BDD #green
+    User -> Api: solicitud de registro
+    Api -> BDD: Guarda registro
+    Api <-- BDD: responde
+    User <-- Api: responde solicitud de registro
+@enduml

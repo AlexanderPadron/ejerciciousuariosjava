@@ -1,0 +1,13 @@
+@startuml
+    actor Cliente
+    control Controller
+    entity Users
+    database BD
+    Cliente -> Controller : Nuevo Registro
+    Controller -> Users : Validacion de Datos
+    Users -> Cliente : Error Response
+    Users -> BD : Almacenar
+    BD -> Users : Usuario Duplicado
+    BD -> Controller : Usuario Creado
+    Controller -> Cliente : 200 Ok + JSON
+@enduml
