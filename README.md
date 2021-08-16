@@ -2,8 +2,8 @@
 Proyecto para creacion de usuarios.
 
 ## Diagramas 
-![diagrama](doc/uml/diagram1.png)
-![diagrama](doc/uml/diagram2.png)
+![diagrama](doc/uml/diagrama1.png)
+![diagrama](doc/uml/diagrama2.png)
 
 # Pasos para despliegue:
 
