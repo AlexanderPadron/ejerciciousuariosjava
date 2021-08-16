@@ -5,7 +5,7 @@ Proyecto para creacion de usuarios.
 ![diagrama](doc/uml/diagrama1.png)
 ![diagrama](doc/uml/diagrama2.png)
 
-# Pasos para despliegue:
+# Pasos para probar:
 
 ## Requisitos
 * Java 8
